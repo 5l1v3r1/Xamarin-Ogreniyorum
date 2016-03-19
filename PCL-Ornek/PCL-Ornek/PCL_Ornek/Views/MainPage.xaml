@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCL_Ornek.Views.MainPage">
+  <ScrollView>
+  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="5,5,0,0">
+    <Entry x:Name="txtName" Placeholder="Name" />
+    <Entry x:Name="txtSurname" Placeholder="Surname" />
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Birth Date" HorizontalOptions="StartAndExpand"></Label>
+      <DatePicker x:Name="dtBirthDate" HorizontalOptions="FillAndExpand" />
+      <TimePicker x:Name="timepicker1" HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+      <Picker x:Name="picker1" HorizontalOptions="FillAndExpand"></Picker>
+      <Label x:Name="lblColor" HorizontalOptions="StartAndExpand"></Label>
+    </StackLayout>
+    <BoxView x:Name="boxview1" />
+    <Stepper x:Name="stepper1" Value="0" Maximum="10" Minimum="0" Increment="1" />
+    <ProgressBar x:Name="progress1" Progress="0.1" />
+    <Label x:Name="lblStepper" HorizontalOptions="StartAndExpand"></Label>
+    <Switch x:Name="switcher1" VerticalOptions="Center" HorizontalOptions="Center"></Switch>
+
+    <Slider x:Name="slider1" Minimum="0" Maximum="100" Value="50" BackgroundColor="Red" />
+    <Label x:Name="lblSlider" HorizontalOptions="StartAndExpand"></Label>
+
+    <ActivityIndicator Color="Red" IsRunning="True" x:Name="activity1" />
+    <Button Text="Xamarin TR" x:Name="Run" Clicked="btnClick" />
+   
+  </StackLayout>
+  </ScrollView>
+</ContentPage>

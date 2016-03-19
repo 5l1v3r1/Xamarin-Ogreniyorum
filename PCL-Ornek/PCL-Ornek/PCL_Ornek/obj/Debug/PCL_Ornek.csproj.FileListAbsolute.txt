@@ -1,0 +1,13 @@
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\PCL_Ornek.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\PCL_Ornek.pdb
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\PCL_Ornek.csprojResolveAssemblyReference.cache
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\MainPage.xaml.g.cs
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\MenuPage.xaml.g.cs
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\PCL_Ornek.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\PCL_Ornek.pdb
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\obj\Debug\PCL_Ornek.dll.mdb
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\PCL-Ornek\PCL-Ornek\PCL_Ornek\bin\Debug\PCL_Ornek.dll.mdb
