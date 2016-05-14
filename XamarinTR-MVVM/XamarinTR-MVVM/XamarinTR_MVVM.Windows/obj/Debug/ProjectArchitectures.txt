@@ -1,0 +1,1 @@
+C:\Users\Yigit\Desktop\XamarinTR-MVVM\XamarinTR-MVVM\XamarinTR_MVVM.Windows\XamarinTR_MVVM.Windows.csproj;neutral

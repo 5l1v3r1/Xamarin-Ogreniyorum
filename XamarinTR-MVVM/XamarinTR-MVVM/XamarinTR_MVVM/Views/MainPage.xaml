@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTR_MVVM.Views.MainPage">
+
+  <StackLayout>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+      <Label Text="List of Xamarin Students" TextColor="Fuchsia" FontAttributes="Bold" FontSize="18"></Label>
+    </StackLayout>
+    <ListView ItemsSource="{Binding Students}" HasUnevenRows="True" ItemSelected="onStudentSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+              <Label Text="{Binding Name}" />
+              <Label Text="-"/>
+              <Label Text="{Binding Department}" FontAttributes="Italic" />
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>
