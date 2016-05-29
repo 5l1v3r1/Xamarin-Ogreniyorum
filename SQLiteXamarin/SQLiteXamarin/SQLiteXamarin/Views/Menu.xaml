@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteXamarin.Views.Menu">
+  <StackLayout Orientation="Vertical">
+    <Button Text="Listele" HorizontalOptions="FillAndExpand" Clicked="btnList"></Button>
+    <Button Text="Ekle" HorizontalOptions="FillAndExpand" Clicked="btnInsert"></Button>
+  </StackLayout>
+</ContentPage>

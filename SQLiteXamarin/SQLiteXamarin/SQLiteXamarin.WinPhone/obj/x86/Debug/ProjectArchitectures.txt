@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\Visual Studio 2015\Projects\SQLiteXamarin\SQLiteXamarin\SQLiteXamarin.WinPhone\SQLiteXamarin.WinPhone.csproj;x86
+C:\Users\Yigit\Documents\Visual Studio 2015\Projects\SQLiteXamarin\SQLiteXamarin\SQLiteXamarin\SQLiteXamarin.csproj;neutral

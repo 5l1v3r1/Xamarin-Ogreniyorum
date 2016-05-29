@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteXamarin.Views.Create">
+  <StackLayout Orientation="Vertical">
+    <Entry x:Name="txtName" Placeholder="Name" HorizontalOptions="FillAndExpand"></Entry>
+    <Entry x:Name="txtSurname" Placeholder="Surname" HorizontalOptions="FillAndExpand"></Entry>
+    <DatePicker x:Name="pickerBirthDate" HorizontalOptions="FillAndExpand"></DatePicker>
+    <Editor x:Name="txtAbout" HorizontalOptions="FillAndExpand" HeightRequest="100"></Editor>
+    <Button Text="Save" HorizontalOptions="FillAndExpand" Clicked="SaveStudent"></Button>
+  </StackLayout>
+</ContentPage>
