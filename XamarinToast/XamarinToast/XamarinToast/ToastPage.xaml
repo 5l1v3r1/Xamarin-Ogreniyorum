@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinToast.ToastPage">
+  <StackLayout Orientation="Vertical">
+    <Button Text="Info" HorizontalOptions="FillAndExpand" Clicked="onInfo"></Button>
+    <Button Text="Success" HorizontalOptions="FillAndExpand" Clicked="onSuccess"></Button>
+    <Button Text="Warning" HorizontalOptions="FillAndExpand" Clicked="onWarning"></Button>
+    <Button Text="Error" HorizontalOptions="FillAndExpand" Clicked="onError"></Button>
+  </StackLayout>
+</ContentPage>
