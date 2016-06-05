@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinResources.MyContentPage">
+
+  <Page.Resources>
+    <ResourceDictionary>
+      <Color x:Key="bgColor">#c0c0c0</Color>
+      <Color x:Key="fgColor">#606060</Color>
+    </ResourceDictionary>
+  </Page.Resources>
+
+  <StackLayout BackgroundColor="{DynamicResource bgColor}" Padding="10">
+    <Label Text="xamarintr.com" TextColor="{DynamicResource fgColor}" 
+           Style="{StaticResource LabelFontSize}" />
+    
+    <Label Text="Xamarin Türkiye" TextColor="{DynamicResource fgColor}" 
+           Style="{StaticResource LabelTextColor}" />
+    
+    <Label Text="Xamarin" TextColor="{DynamicResource fgColor}" 
+           Style="{StaticResource LabelStyle}" />
+
+    <Button Clicked="OnLight" Text="Light" TextColor="Red" />
+    <Button Clicked="OnDark"  Text="Dark"  TextColor="Red" />
+    
+  </StackLayout>
+  
+</ContentPage>

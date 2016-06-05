@@ -1,0 +1,14 @@
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\XamarinResources.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\XamarinResources.pdb
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.App.xaml.g.cs
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.MyContentPage.xaml.g.cs
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.pdb
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.csprojResolveAssemblyReference.cache
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\obj\Debug\XamarinResources.dll.mdb
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinResources\XamarinResources\XamarinResources\bin\Debug\XamarinResources.dll.mdb
