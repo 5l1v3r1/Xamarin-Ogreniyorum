@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTRMenu.Views.Menu">
+  <StackLayout BackgroundColor="#000" Spacing="20">
+    <StackLayout Padding="10,40,20,20" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Start">
+      <Image HeightRequest="50" Source="xamagon.png" VerticalOptions="Center" HorizontalOptions="Center" Aspect="AspectFit"></Image>
+    </StackLayout>
+    <StackLayout VerticalOptions="CenterAndExpand">
+      <ListView x:Name="lstMenu" ItemsSource="{Binding Menu}" HasUnevenRows="True" ItemSelected="onStudentSelected">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout Padding="10" Spacing="20">
+                <Label Text="{Binding Name}" FontAttributes="Bold" />
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+    <StackLayout Padding="0,0,0,30" Orientation="Horizontal" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="End">
+      <Label Text="www.xamarintr.com"></Label>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

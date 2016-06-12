@@ -1,0 +1,12 @@
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\XamarinTRMenu.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\XamarinTRMenu.pdb
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\obj\Debug\XamarinTRMenu.csprojResolveAssemblyReference.cache
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\obj\Debug\XamarinTRMenu.Views.Menu.xaml.g.cs
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\obj\Debug\XamarinTRMenu.dll
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\obj\Debug\XamarinTRMenu.pdb
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\obj\Debug\XamarinTRMenu.Views.Detail.xaml.g.cs

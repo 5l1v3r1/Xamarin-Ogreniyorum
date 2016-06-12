@@ -1,0 +1,2 @@
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu.WinPhone\XamarinTRMenu.WinPhone.csproj;neutral
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu\XamarinTRMenu.csproj;neutral
