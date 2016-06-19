@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:z="clr-namespace:XamarinConverters.Converters;assembly=XamarinConverters"
+             x:Class="XamarinConverters.App">
+
+  <Application.Resources>
+    <ResourceDictionary>
+      <z:GenderConverter x:Key="genderConverter"
+          Male="Blue"
+          Female="Pink" />
+      <z:BirthdayConverter x:Key="birthdayConverter" />
+    </ResourceDictionary>
+  </Application.Resources>
+  
+</Application>
