@@ -1,11 +1,11 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\xamarinconverters\xamarinconverters.winphone\obj\debug\intermediatexaml\xamarinconverters.winphone.exe" HashGuid="e09b72fd-8e37-fc07-b43e-c1b5d8c0068d" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="f7f417b9-5b4a-9692-10d4-bb874feaa2e9" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="2828b56a-3245-7d15-6650-dfb4f30cfa91" />
-    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarinconverters\xamarinconverters\xamarinconverters\bin\debug\xamarinconverters.dll" HashGuid="92a29572-374a-c6b6-8fc0-9d1ca6f31d2e" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="f7f417b9-5b4a-9692-10d4-bb874feaa2e9" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="2828b56a-3245-7d15-6650-dfb4f30cfa91" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinconverters\xamarinconverters\xamarinconverters\bin\debug\xamarinconverters.dll" HashGuid="426b24f4-d267-48f7-a921-c5ac383b9472" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -4,7 +4,13 @@
              x:Class="XamarinConverters.Views.ListPage">
   
   <StackLayout Padding="5,0,5,5" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-    <ListView HasUnevenRows="True" ItemsSource="{Binding .}">
+    <ListView HasUnevenRows="True" 
+              ItemsSource="{Binding .}"
+              IsPullToRefreshEnabled="True"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding Key}"
+              GroupShortNameBinding="{Binding Key}"
+              Refreshing="OnRefreshing">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell Height="80">
@@ -28,6 +34,10 @@
                       Grid.Column="1" Grid.ColumnSpan="2"
                       FontSize="Micro" TextColor="Accent" />
             </Grid>
+            <ViewCell.ContextActions>
+              <MenuItem Text="Delete" IsDestructive="true" />
+              <MenuItem Text="Cancel" IsDestructive="true" />
+            </ViewCell.ContextActions>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListViewGrouping.Data;assembly=ListViewGrouping"
+             x:Class="ListViewGrouping.Views.Detail">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:CountryResourceConverter x:Key="countryResourceCvt" />
+      <local:ImageResourceConverter x:Key="imageResourceCvt" />
+      <local:BirthdayConverter x:Key="birthdayCvt" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <ScrollView>
+    <StackLayout Spacing="10">
+      <StackLayout.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="5,20,5,5" Android="5,0,5,5" WinPhone="5,0,5,5" />
+      </StackLayout.Padding>
+
+      <Image HeightRequest="200" Aspect="AspectFit"
+                   Source="{Binding Image, Converter={StaticResource imageResourceCvt}}" />
+
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Name : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Label Text="{Binding FullName}" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Position : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Label Text="{Binding Position}" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Height : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Label Text="{Binding Height}" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Weight : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Label Text="{Binding Weight}" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Age : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Label Text="{Binding BirthDate, Converter={StaticResource birthdayCvt}, StringFormat='{0} yrs. old'}" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Country : " FontAttributes="Bold" HorizontalOptions="Start" TextColor="Accent" />
+        <Image Source="{Binding Country, Converter={StaticResource countryResourceCvt}}" HorizontalOptions="Start" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+
+</ContentPage>

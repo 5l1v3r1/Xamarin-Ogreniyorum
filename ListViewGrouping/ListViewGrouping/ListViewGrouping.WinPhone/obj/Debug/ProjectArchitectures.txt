@@ -1,0 +1,2 @@
+C:\Users\Yigit\Desktop\Elif\ListViewGrouping\ListViewGrouping\ListViewGrouping.WinPhone\ListViewGrouping.WinPhone.csproj;neutral
+C:\Users\Yigit\Desktop\Elif\ListViewGrouping\ListViewGrouping\ListViewGrouping\ListViewGrouping.csproj;neutral

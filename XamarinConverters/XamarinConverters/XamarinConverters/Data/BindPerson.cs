@@ -12,6 +12,8 @@ namespace XamarinConverters.Data
         {
             Persons = new List<Person>
             {
+                new Person { FirstName = "Yiğit", LastName = "Özaksüt", Gender = Gender.Male,
+                    BirthDate = new DateTime(1986, 11, 7)},
                 new Person { FirstName = "Mr", LastName = "Smith", Gender = Gender.Male,
                     BirthDate = new DateTime(1986, 11, 7)},
                 new Person { FirstName = "Mrs", LastName = "Smith", Gender = Gender.Female,

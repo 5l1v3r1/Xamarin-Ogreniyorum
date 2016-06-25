@@ -1,2 +1,2 @@
-C:\Users\Yigit\Documents\Visual Studio 2015\Projects\XamarinConverters\XamarinConverters\XamarinConverters.WinPhone\XamarinConverters.WinPhone.csproj;neutral
-C:\Users\Yigit\Documents\Visual Studio 2015\Projects\XamarinConverters\XamarinConverters\XamarinConverters\XamarinConverters.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinConverters\XamarinConverters\XamarinConverters.WinPhone\XamarinConverters.WinPhone.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinConverters\XamarinConverters\XamarinConverters\XamarinConverters.csproj;neutral

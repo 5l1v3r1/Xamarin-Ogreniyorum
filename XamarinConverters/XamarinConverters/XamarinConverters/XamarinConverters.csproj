@@ -42,6 +42,7 @@
     <Compile Include="Converters\GenderConverter.cs" />
     <Compile Include="Data\BindPerson.cs" />
     <Compile Include="Models\Gender.cs" />
+    <Compile Include="Models\Grouping.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\ListPage.xaml.cs">
