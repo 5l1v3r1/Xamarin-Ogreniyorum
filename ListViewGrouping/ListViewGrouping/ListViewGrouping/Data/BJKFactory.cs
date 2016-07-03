@@ -1,6 +1,8 @@
-﻿using System;
+﻿using ListViewGrouping.Utility;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace ListViewGrouping.Data
 {
@@ -25,7 +27,9 @@ namespace ListViewGrouping.Data
             Striker
         }
 
-        public static IList<Player> Players { get; private set; }
+        public static int refreshCount { get; set; } = 0;
+
+        private static IList<Player> Players { get; set; }
 
         static BJKFactory()
         {
@@ -103,6 +107,10 @@ namespace ListViewGrouping.Data
                     Position = Position.Midfield,
                     BirthDate = new DateTime(1992, 01, 20), Height = 1.76f, Weight = 70 },
 
+                new Player { FullName = "Gökhan Gönül", Image = "gokhangonul.jpg", Country = "Turkey.png",
+                    Position = Position.Defence,
+                    BirthDate = new DateTime(1985, 01, 04), Height = 1.75f, Weight = 75 },
+
                 new Player { FullName = "Jose Ernesto Sosa", Image = "josesosa.jpg", Country = "Argentina.png",
                     Position = Position.Midfield,
                     BirthDate = new DateTime(1985, 06, 19), Height = 1.79f, Weight = 72 },
@@ -127,6 +135,22 @@ namespace ListViewGrouping.Data
                     Position = Position.Striker,
                     BirthDate = new DateTime(1985, 07, 10), Height = 1.89f, Weight = 83 },
             };
+        }
+
+        public static ObservableCollection<Grouping<string, Player>> GetPlayersWithGrouping(string playerFullName = null)
+        {
+            var result = Players;
+
+            if (!String.IsNullOrEmpty(playerFullName) && playerFullName.Length > 2)
+                result = Players.Where(x => x.FullName.ToLower().Contains(playerFullName)).ToList();
+
+            var list = new ObservableCollection<Grouping<string, Player>>(
+            result
+            .OrderBy(c => refreshCount % 2 == 0 ? c.Country : c.FullName)
+            .GroupBy(c => refreshCount % 2 == 0 ? c.Country[0].ToString() : c.FullName[0].ToString(), c => c)
+            .Select(g => new Grouping<string, Player>(g.Key, g)));
+
+            return list;
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using ListViewGrouping.Data;
-using ListViewGrouping.Utility;
 using System;
-using System.Collections.ObjectModel;
-using System.Linq;
 using Xamarin.Forms;
 using static ListViewGrouping.Data.BJKFactory;
 
@@ -14,12 +11,8 @@ namespace ListViewGrouping.Views
         {
             InitializeComponent();
             Icon = "icon.png";
-
-            BindingContext = new ObservableCollection<Grouping<string, Player>>(
-                BJKFactory.Players
-                .OrderBy(c => c.FullName)
-                .GroupBy(c => c.FullName[0].ToString(), c => c)
-                .Select(g => new Grouping<string, Player>(g.Key, g)));
+            refreshCount++;
+            BindingContext = BJKFactory.GetPlayersWithGrouping();
         }
 
         void OnAlert(object sender, EventArgs e)
@@ -38,19 +31,20 @@ namespace ListViewGrouping.Views
                 await this.Navigation.PushAsync(new Detail(selectedPlayer));
         }
 
-        int refreshCount = 0;
         void OnRefreshing(object sender, EventArgs e)
         {
             ListView lv = (ListView)sender;
-
-            BindingContext = new ObservableCollection<Grouping<string, Player>>(
-                BJKFactory.Players
-                .OrderBy(c => refreshCount % 2 == 0 ? c.Country : c.FullName)
-                .GroupBy(c => refreshCount % 2 == 0 ? c.Country[0].ToString() : c.FullName[0].ToString(), c => c)
-                .Select(g => new Grouping<string, Player>(g.Key, g)));
-
             refreshCount++;
+            BindingContext = BJKFactory.GetPlayersWithGrouping();
             lv.IsRefreshing = false;
+        }
+
+        void onSearch(object sender, TextChangedEventArgs e)
+        {
+            if (!String.IsNullOrEmpty(e.NewTextValue) && e.NewTextValue.Length > 2)
+                BindingContext = BJKFactory.GetPlayersWithGrouping(e.NewTextValue);
+            else if(String.IsNullOrEmpty(e.NewTextValue))
+                BindingContext = BJKFactory.GetPlayersWithGrouping();
         }
     }
 }

@@ -70,7 +70,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Images\Player\tolgazengin.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Player\gokhangonul.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Players.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

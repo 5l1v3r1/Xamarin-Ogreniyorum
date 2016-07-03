@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ListViewGrouping.Data;assembly=ListViewGrouping"
-             x:Class="ListViewGrouping.Views.Players" 
+             x:Class="ListViewGrouping.Views.Players"
              Title="BJK Players"
              Padding="5,0,5,5">
-  
+
   <ContentPage.Resources>
     <ResourceDictionary>
       <local:ImageResourceConverter x:Key="imageResourceCvt" />
@@ -13,72 +13,73 @@
       <local:BirthdayConverter x:Key="birthdayCvt" />
     </ResourceDictionary>
   </ContentPage.Resources>
-  
-  <ListView x:Name="bjkPlayers"
-            CachingStrategy="RecycleElement"
-            ItemsSource="{Binding .}"
-            IsPullToRefreshEnabled="True"
-            Refreshing="OnRefreshing"
-            ItemSelected="OnItemSelected"
-            HasUnevenRows="True"
-            IsGroupingEnabled="True"
-            GroupDisplayBinding="{Binding Key}"
-            GroupShortNameBinding="{Binding Key}"
-            Footer="{Binding Count, Source={x:Static local:BJKFactory.Players}}">
+  <StackLayout>
+    <SearchBar Placeholder="Search Player" TextChanged="onSearch"></SearchBar>
+    <ListView x:Name="bjkPlayers"
+              CachingStrategy="RecycleElement"
+              ItemsSource="{Binding .}"
+              IsPullToRefreshEnabled="True"
+              Refreshing="OnRefreshing"
+              ItemSelected="OnItemSelected"
+              HasUnevenRows="True"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding Key}"
+              GroupShortNameBinding="{Binding Key}"
+              Footer="{Binding Count, Source={x:Static local:BJKFactory.Players}}">
 
-    <ListView.Header>
-      <ContentView Padding="0,5" BackgroundColor="#fff">
-        <Label FontSize="Large" TextColor="#000"
-               Text="BEŞİKTAŞ JK" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
-      </ContentView>
-    </ListView.Header>
-
-    <ListView.FooterTemplate>
-      <DataTemplate>
-        <ContentView Padding="0,5">
-          <Label FontSize="Micro"
-                 Text="{Binding ., StringFormat='{0} players'}"
-                 VerticalTextAlignment="Center" HorizontalTextAlignment="End" />
+      <ListView.Header>
+        <ContentView Padding="0,5" BackgroundColor="#fff">
+          <Label FontSize="Large" TextColor="#000"
+                 Text="BEŞİKTAŞ JK" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
         </ContentView>
-      </DataTemplate>
-    </ListView.FooterTemplate>
+      </ListView.Header>
 
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell Height="80">
-          <Grid>
-            <Grid.ColumnDefinitions>
-              <ColumnDefinition Width="75" />
-              <ColumnDefinition Width="*" />
-              <ColumnDefinition Width="Auto" />
-              <ColumnDefinition Width="10" />
-            </Grid.ColumnDefinitions>
+      <ListView.FooterTemplate>
+        <DataTemplate>
+          <ContentView Padding="0,5">
+            <Label FontSize="Micro"
+                   Text="{Binding ., StringFormat='{0} players'}"
+                   VerticalTextAlignment="Center" HorizontalTextAlignment="End" />
+          </ContentView>
+        </DataTemplate>
+      </ListView.FooterTemplate>
 
-            <BoxView BackgroundColor="White" />
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell Height="80">
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="10" />
+              </Grid.ColumnDefinitions>
 
-            <Image WidthRequest="75" Aspect="AspectFit"
-                    Source="{Binding Image, Converter={StaticResource imageResourceCvt}}" />
+              <BoxView BackgroundColor="White" />
 
-            <StackLayout Grid.Column="1" VerticalOptions="Center">
-              <Label Text="{Binding FullName}" FontSize="Medium" FontAttributes="Bold" />
-              <Label Text="{Binding Position}" FontSize="Small" TextColor="Accent" />
-            </StackLayout>
+              <Image WidthRequest="75" Aspect="AspectFit"
+                      Source="{Binding Image, Converter={StaticResource imageResourceCvt}}" />
 
-            <Image Grid.Column="2"
-                    VerticalOptions="Center"
-                    HorizontalOptions="End" Source="{Binding Country, Converter={StaticResource countryResourceCvt}}" />
+              <StackLayout Grid.Column="1" VerticalOptions="Center">
+                <Label Text="{Binding FullName}" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="{Binding Position}" FontSize="Small" TextColor="Accent" />
+              </StackLayout>
 
-            <Label Text="{Binding BirthDate, Converter={StaticResource birthdayCvt}, StringFormat='{0} yrs. old'}"
-                    HorizontalOptions="End" VerticalOptions="End"
-                    Grid.Column="1" Grid.ColumnSpan="2"
-                    FontSize="Micro" TextColor="Accent" />
-          </Grid>
-          <ViewCell.ContextActions>
-            <MenuItem Text="Select" Clicked="OnAlert" IsDestructive="true" />
-          </ViewCell.ContextActions>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+              <Image Grid.Column="2"
+                      VerticalOptions="Center"
+                      HorizontalOptions="End" Source="{Binding Country, Converter={StaticResource countryResourceCvt}}" />
 
+              <Label Text="{Binding BirthDate, Converter={StaticResource birthdayCvt}, StringFormat='{0} yrs. old'}"
+                      HorizontalOptions="End" VerticalOptions="End"
+                      Grid.Column="1" Grid.ColumnSpan="2"
+                      FontSize="Micro" TextColor="Accent" />
+            </Grid>
+            <ViewCell.ContextActions>
+              <MenuItem Text="Select" Clicked="OnAlert" IsDestructive="true" />
+            </ViewCell.ContextActions>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
 </ContentPage>
