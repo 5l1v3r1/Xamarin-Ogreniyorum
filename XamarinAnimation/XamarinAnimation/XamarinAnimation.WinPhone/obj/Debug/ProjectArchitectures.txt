@@ -1,0 +1,1 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinAnimation\XamarinAnimation\XamarinAnimation.WinPhone\XamarinAnimation.WinPhone.csproj;neutral
