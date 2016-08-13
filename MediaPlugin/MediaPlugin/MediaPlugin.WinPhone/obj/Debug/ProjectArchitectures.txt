@@ -1,0 +1,2 @@
+c:\users\yigit\documents\visual studio 2015\Projects\MediaPlugin\MediaPlugin\MediaPlugin.WinPhone\MediaPlugin.WinPhone.csproj;neutral
+c:\users\yigit\documents\visual studio 2015\Projects\MediaPlugin\MediaPlugin\MediaPlugin\MediaPlugin.csproj;neutral

@@ -1,1 +1,1 @@
-C:\Users\Yigit\Documents\Visual Studio 2015\Projects\RendererOrnek\RendererOrnek\RendererOrnek.WinPhone\RendererOrnek.WinPhone.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\RendererOrnek\RendererOrnek\RendererOrnek.WinPhone\RendererOrnek.WinPhone.csproj;neutral
