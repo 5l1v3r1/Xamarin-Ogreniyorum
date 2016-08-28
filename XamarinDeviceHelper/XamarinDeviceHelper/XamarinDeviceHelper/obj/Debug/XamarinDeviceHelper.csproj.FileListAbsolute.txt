@@ -1,0 +1,10 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\XamarinDeviceHelper.dll
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\XamarinDeviceHelper.pdb
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\obj\Debug\XamarinDeviceHelper.csprojResolveAssemblyReference.cache
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\obj\Debug\XamarinDeviceHelper.dll
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\obj\Debug\XamarinDeviceHelper.pdb

@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper.Windows\XamarinDeviceHelper.Windows.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper\XamarinDeviceHelper.csproj;neutral
