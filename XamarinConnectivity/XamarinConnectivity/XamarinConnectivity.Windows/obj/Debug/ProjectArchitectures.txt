@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinConnectivity\XamarinConnectivity\XamarinConnectivity.Windows\XamarinConnectivity.Windows.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinConnectivity\XamarinConnectivity\XamarinConnectivity\XamarinConnectivity.csproj;neutral
