@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\xamarinshare\xamarinshare.winphone\obj\debug\intermediatexaml\xamarinshare.winphone.exe" HashGuid="0b6f6480-6df8-2a0f-5bdf-575adf6b1b39" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\plugin.share.4.0.3\lib\wpa81\plugin.share.abstractions.dll" HashGuid="a35d54a1-bf98-d236-ede4-c71a230bf677" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\plugin.share.4.0.3\lib\wpa81\plugin.share.dll" HashGuid="07b997aa-07b5-eb87-6ae3-221ae8f8fb6c" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="b8557fe6-625f-3f09-5ca0-7389960acdca" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\xamarinshare\xamarinshare\bin\debug\xamarinshare.dll" HashGuid="7633a3e3-2d71-a5d2-c835-e1bcd3d9d39f" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

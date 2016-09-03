@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinShare\XamarinShare\XamarinShare.WinPhone\XamarinShare.WinPhone.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinShare\XamarinShare\XamarinShare\XamarinShare.csproj;neutral

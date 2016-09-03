@@ -1,0 +1,12 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\plugin.share.4.0.3\lib\win8\plugin.share.abstractions.dll" HashGuid="a35d54a1-bf98-d236-ede4-c71a230bf677" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\plugin.share.4.0.3\lib\win8\plugin.share.dll" HashGuid="6232b818-4de3-f5e7-bcb1-060041799bba" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="57732495-6836-491a-fcfc-a4531cfdd6bc" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarinshare\xamarinshare\xamarinshare\bin\debug\xamarinshare.dll" HashGuid="a4371c4b-36e3-0624-5280-a03ae34fc112" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
