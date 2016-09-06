@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinLocalPush\XamarinLocalPush\XamarinLocalPush.WinPhone\XamarinLocalPush.WinPhone.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinLocalPush\XamarinLocalPush\XamarinLocalPush\XamarinLocalPush.csproj;neutral
