@@ -1,0 +1,2 @@
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView.Windows\XamarinCarouselView.Windows.csproj;neutral
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView.csproj;neutral

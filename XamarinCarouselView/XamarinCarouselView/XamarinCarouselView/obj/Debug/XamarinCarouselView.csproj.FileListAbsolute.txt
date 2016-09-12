@@ -1,0 +1,16 @@
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\XamarinCarouselView.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\XamarinCarouselView.pdb
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\obj\Debug\XamarinCarouselView.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\obj\Debug\XamarinCarouselView.pdb
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\bin\Debug\Xamarin.Forms.CarouselView.dll
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\obj\Debug\XamarinCarouselView.csprojResolveAssemblyReference.cache
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\obj\Debug\XamarinCarouselView.MyCarouselView.xaml.g.cs
+C:\Users\Yigit\Desktop\XamarinCarouselView\XamarinCarouselView\XamarinCarouselView\obj\Debug\XamarinCarouselView.App.xaml.g.cs

@@ -1,0 +1,12 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\yigit\desktop\xamarincarouselview\xamarincarouselview\xamarincarouselview.winphone\obj\debug\intermediatexaml\xamarincarouselview.winphone.exe" HashGuid="94b6a8de-753a-8b5a-a66d-df2bcf79428b" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.carouselview.2.3.0-pre2\lib\wpa81\xamarin.forms.carouselview.dll" HashGuid="57c5e68a-6f32-5169-60ae-624c87c65895" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="b8557fe6-625f-3f09-5ca0-7389960acdca" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\github\xamarin-ogreniyorum\xamarincarouselview\xamarincarouselview\xamarincarouselview\bin\debug\xamarincarouselview.dll" HashGuid="01af6713-e1d9-dab4-7006-f3492e425803" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
