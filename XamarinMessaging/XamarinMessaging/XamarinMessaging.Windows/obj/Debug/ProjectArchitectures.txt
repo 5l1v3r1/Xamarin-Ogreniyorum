@@ -1,0 +1,2 @@
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinMessaging\XamarinMessaging\XamarinMessaging.Windows\XamarinMessaging.Windows.csproj;neutral
+C:\Users\Yigit\Documents\GitHub\Xamarin-Ogreniyorum\XamarinMessaging\XamarinMessaging\XamarinMessaging\XamarinMessaging.csproj;neutral
