@@ -1,0 +1,2 @@
+c:\Users\Yigit\Documents\Visual Studio 2015\Projects\XamarinCircleImage\XamarinCircleImage\XamarinCircleImage.WinPhone\XamarinCircleImage.WinPhone.csproj;neutral
+c:\Users\Yigit\Documents\Visual Studio 2015\Projects\XamarinCircleImage\XamarinCircleImage\XamarinCircleImage\XamarinCircleImage.csproj;neutral

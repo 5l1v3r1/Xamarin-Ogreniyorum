@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\xamarincircleimage\xamarincircleimage.winphone\obj\debug\intermediatexaml\xamarincircleimage.winphone.exe" HashGuid="8b47496d-9b53-b6ac-96e0-0086b0e7d147" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xam.plugins.forms.imagecircle.1.8.0.5\lib\wpa81\imagecircle.forms.plugin.abstractions.dll" HashGuid="28ac2fb9-7479-5917-8c17-c740eb4f0887" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xam.plugins.forms.imagecircle.1.8.0.5\lib\wpa81\imagecircle.forms.plugin.windowsphonert.dll" HashGuid="edc2e7bc-12f8-74bb-d3e3-d8f86cf3083f" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.core.dll" HashGuid="725dee27-7376-6787-2b92-d2b102c486d4" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="07994aa2-3382-4066-7150-6b749ac659d6" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="94274a37-ad6c-fd1e-7bbb-eccc6cb7804c" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="9f5b8117-9053-1f26-a531-a25956bccca6" />
+    <ReferenceAssembly PathName="c:\users\yigit\documents\visual studio 2015\projects\xamarincircleimage\xamarincircleimage\xamarincircleimage\bin\debug\xamarincircleimage.dll" HashGuid="042e4537-ee04-a602-e1fd-9fc90092f21b" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
