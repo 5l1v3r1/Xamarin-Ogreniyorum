@@ -1,0 +1,2 @@
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinReader\XamarinReader\XamarinReader.WinPhone\XamarinReader.WinPhone.csproj;neutral
+c:\users\yigit\documents\visual studio 2015\Projects\XamarinReader\XamarinReader\XamarinReader\XamarinReader.csproj;neutral
