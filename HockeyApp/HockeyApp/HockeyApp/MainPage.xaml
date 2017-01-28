@@ -7,6 +7,7 @@
   <ContentPage.Content>
     <StackLayout>
       <Button Text="BOOM!" Clicked="onBoom"></Button>
+      <Button Text="TRACK EVENT!" Clicked="onTrack"></Button>
     </StackLayout>
   </ContentPage.Content>
 

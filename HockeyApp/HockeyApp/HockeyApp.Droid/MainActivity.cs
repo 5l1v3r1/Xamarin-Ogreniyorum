@@ -15,6 +15,8 @@ namespace HockeyApp.Droid
 
             base.OnCreate(bundle);
 
+            HockeyApp.Android.Metrics.MetricsManager.Register(
+                this, Application, AppId);
             HockeyApp.Android.CrashManager.Register(this, AppId);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
