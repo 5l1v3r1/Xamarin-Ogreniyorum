@@ -1,3 +1,3 @@
 # Xamarin-Ogreniyorum
-www.xamarintr.com
+www.xamarinturkiye.com
 Xamarin Türkiye Platformu
